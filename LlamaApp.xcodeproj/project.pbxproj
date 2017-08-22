@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FAE1F941F4CA54A00BBD39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE1F931F4CA54A00BBD39C /* AppDelegate.swift */; };
+		9FAE1F961F4CA54A00BBD39C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAE1F951F4CA54A00BBD39C /* ViewController.swift */; };
+		9FAE1F991F4CA54A00BBD39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE1F971F4CA54A00BBD39C /* Main.storyboard */; };
+		9FAE1F9B1F4CA54A00BBD39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE1F9A1F4CA54A00BBD39C /* Assets.xcassets */; };
+		9FAE1F9E1F4CA54A00BBD39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE1F9C1F4CA54A00BBD39C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FAE1F901F4CA54A00BBD39C /* LlamaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LlamaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAE1F931F4CA54A00BBD39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FAE1F951F4CA54A00BBD39C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FAE1F981F4CA54A00BBD39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FAE1F9A1F4CA54A00BBD39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FAE1F9D1F4CA54A00BBD39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FAE1F9F1F4CA54A00BBD39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FAE1F8D1F4CA54A00BBD39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FAE1F871F4CA54A00BBD39C = {
+			isa = PBXGroup;
+			children = (
+				9FAE1F921F4CA54A00BBD39C /* LlamaApp */,
+				9FAE1F911F4CA54A00BBD39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FAE1F911F4CA54A00BBD39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE1F901F4CA54A00BBD39C /* LlamaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FAE1F921F4CA54A00BBD39C /* LlamaApp */ = {
+			isa = PBXGroup;
+			children = (
+				9FAE1F931F4CA54A00BBD39C /* AppDelegate.swift */,
+				9FAE1F951F4CA54A00BBD39C /* ViewController.swift */,
+				9FAE1F971F4CA54A00BBD39C /* Main.storyboard */,
+				9FAE1F9A1F4CA54A00BBD39C /* Assets.xcassets */,
+				9FAE1F9C1F4CA54A00BBD39C /* LaunchScreen.storyboard */,
+				9FAE1F9F1F4CA54A00BBD39C /* Info.plist */,
+			);
+			path = LlamaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FAE1F8F1F4CA54A00BBD39C /* LlamaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAE1FA21F4CA54A00BBD39C /* Build configuration list for PBXNativeTarget "LlamaApp" */;
+			buildPhases = (
+				9FAE1F8C1F4CA54A00BBD39C /* Sources */,
+				9FAE1F8D1F4CA54A00BBD39C /* Frameworks */,
+				9FAE1F8E1F4CA54A00BBD39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LlamaApp;
+			productName = LlamaApp;
+			productReference = 9FAE1F901F4CA54A00BBD39C /* LlamaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FAE1F881F4CA54A00BBD39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Skyler Bala";
+				TargetAttributes = {
+					9FAE1F8F1F4CA54A00BBD39C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BX4CBW4TS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9FAE1F8B1F4CA54A00BBD39C /* Build configuration list for PBXProject "LlamaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FAE1F871F4CA54A00BBD39C;
+			productRefGroup = 9FAE1F911F4CA54A00BBD39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FAE1F8F1F4CA54A00BBD39C /* LlamaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FAE1F8E1F4CA54A00BBD39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAE1F9E1F4CA54A00BBD39C /* LaunchScreen.storyboard in Resources */,
+				9FAE1F9B1F4CA54A00BBD39C /* Assets.xcassets in Resources */,
+				9FAE1F991F4CA54A00BBD39C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FAE1F8C1F4CA54A00BBD39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAE1F961F4CA54A00BBD39C /* ViewController.swift in Sources */,
+				9FAE1F941F4CA54A00BBD39C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FAE1F971F4CA54A00BBD39C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FAE1F981F4CA54A00BBD39C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FAE1F9C1F4CA54A00BBD39C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FAE1F9D1F4CA54A00BBD39C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FAE1FA01F4CA54A00BBD39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FAE1FA11F4CA54A00BBD39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FAE1FA31F4CA54A00BBD39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = LlamaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.LlamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FAE1FA41F4CA54A00BBD39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = LlamaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.LlamaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FAE1F8B1F4CA54A00BBD39C /* Build configuration list for PBXProject "LlamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAE1FA01F4CA54A00BBD39C /* Debug */,
+				9FAE1FA11F4CA54A00BBD39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAE1FA21F4CA54A00BBD39C /* Build configuration list for PBXNativeTarget "LlamaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAE1FA31F4CA54A00BBD39C /* Debug */,
+				9FAE1FA41F4CA54A00BBD39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FAE1F881F4CA54A00BBD39C /* Project object */;
+}
