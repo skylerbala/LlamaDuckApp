@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainMenuController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  @IBAction func playButtonTouchUpInside(_ sender: Any) {
+    performSegue(withIdentifier: "goToGameSegue", sender: self)
+  }
+
 
 }
-
